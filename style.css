@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+    /* letter-spacing: 0.4px; */
+  border-bottom: 1px solid white;
+}
+
+#searchInput {
+  border: 1px solid grey;
+  background-color: black;
+  width: 30%;
+  padding: 10px;
+  margin: 15px 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+button {
+  border: 1px solid grey;
+  background-color: black;
+  padding: 10px;
+  margin: 15px 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.positive-change{
+    color: greenyellow;
+}
+
+
+.negative-change{
+    color: red;
+}
+
+td{
+    min-width: 80px;
+    padding: 10px;
+}
+
+#cryptoTable{
+    margin-inline: auto;
+}
